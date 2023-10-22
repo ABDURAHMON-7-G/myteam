@@ -1,0 +1,121 @@
+.build {
+    overflow: hidden;
+  background-color: rgba(1, 47, 52, 1);
+&__container {
+    margin-top: 140px;
+    display: flex;
+    align-items: flex-start;
+justify-content: space-between;
+}
+  &__content {
+    max-width: 445px;
+  }
+  &__hr {
+    max-width: 50px;
+height: 4px;
+background-color: rgba(246, 126, 126, 1);
+  }
+  &__title {
+    font-family: "Livvic";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+  }
+  &__list {
+    margin-top: 58px;
+    max-width: 540px;
+display: flex;
+align-items: center;
+flex-direction: column;
+  }
+  &__item {
+    max-width: 540px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style-type: none;
+  }
+  &__texts {
+    max-width: 445px;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+  }
+  &__item--title {
+    font-family: "Livvic";
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: rgba(246, 126, 126, 1);
+  }
+  &__text {
+    font-family: "Livvic";
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+  }
+  &__img {
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .build__img {
+    margin-top: -140px;
+  }
+  .build__title {
+    font-size: 35px;
+  }
+  .build__list {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 961px) {
+  .build__img {
+    position: relative;
+    bottom: 490px;
+    left: 330px;
+
+  }
+  .build__container {
+    display: flex;
+    align-items: center;
+flex-direction: column;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .intr__container {
+    padding: 0 20px;
+  }
+  .build__item {
+    margin-top: 38px;
+    width: 327px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .build__title {
+    margin-left: -85px;
+    max-width: 240px;
+height: 160px;
+font-size: 32px;
+line-height: 32px;
+  }
+  .build__hr {
+    margin-left: -85px;
+  }
+  .build__item--title {
+    text-align: center;
+  }
+  .build__img {
+    position: relative;
+    bottom: 975px;
+    left: 136px;
+    display: block;
+  }
+}
